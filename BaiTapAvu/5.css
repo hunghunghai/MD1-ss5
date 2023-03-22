@@ -1,0 +1,130 @@
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-right: 50px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin: px;
+  border: 15px solid;
+  border-color: red red red #ededed;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  position: relative;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  /* border-color: #000000 transparent transparent transparent; */
+}
+.lds-ring img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 60px;
+}
+.lds-ring-2 {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-right: 50px;
+}
+.lds-ring-2 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin: px;
+  border: 15px solid;
+  border-color: yellow yellow #ededed #ededed;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  position: relative;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  /* border-color: #000000 transparent transparent transparent; */
+}
+.lds-ring-2 img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 60px;
+}
+.lds-ring-3 {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-right: 50px;
+}
+.lds-ring-3 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin: px;
+  border: 15px solid;
+  border-color: rgb(61, 61, 255) rgb(61, 61, 255) rgb(61, 61, 255) #ededed;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  position: relative;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  /* border-color: #000000 transparent transparent transparent; */
+}
+.lds-ring-3 img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 60px;
+}
+.lds-ring-4 {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-right: 50px;
+}
+.lds-ring-4 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin: px;
+  border: 15px solid;
+  border-color: greenyellow #ededed #ededed #ededed;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  position: relative;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  /* border-color: #000000 transparent transparent transparent; */
+}
+.lds-ring-4 img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 60px;
+}
+
+/* .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */

@@ -1,0 +1,18 @@
+.container {
+  background-image: url("https://anhnendep.net/wp-content/uploads/2018/12/hinh-anh-nen-trung-quoc-dep-cho-may-tinh-14.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  width: 650px;
+  height: 350px;
+}
+.box {
+    color: #ffff;
+    text-align: center;
+    background-color: #ffffff9f;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.box-cha {
+    padding: 125px 0;
+}

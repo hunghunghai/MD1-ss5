@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg-wh {
+  width: 35px;
+  height: 50%;
+  background-color: orange;
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+.text {
+  font-size: 37px;
+  padding-bottom: 20px;
+}
+.text span {
+  margin-top: -10px;
+}
+
+.r {
+  width: 100%;
+  position: relative;
+}
+.r p {
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  padding: 10px 15px;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.text-2 {
+  font-size: 20px;
+  padding: 15px 20px;
+  border: 1px solid;
+  border-top: none;
+  margin-top: -10px;
+}
+
+.box-tatto {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.text-tatto {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  font-size: 20px;
+  padding: 10px 10px;
+  background-color: #ffffff22;
+  color: #fff;
+}
+
+.button {
+  background-color: rgb(234, 37, 37);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.btn-2 {
+  /* width: 100px; */
+  height: auto;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+}
+
+.boxx {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(234, 37, 37);
+  color: #fff;
+}
+
+.boxx-2 {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 13px 17px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #ffffff00;
+  color: #fff;
+  /* position: absolute; */
+}
+
+.boxxx {
+  margin-top: -5px;
+  margin-bottom: -2px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.boxxxx {
+  margin-top: -10px;
+}
+
+.card {
+  width: 400px;
+  position: relative;
+  margin: auto auto;
+}
+
+.card-text {
+  width: 100%;
+  padding: 560px 30px 31px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  /* background-image: linear-gradient( 180deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.689)); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.649));
+}
+
+.card-text h1 { 
+  font-size: 39px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.card-text p {
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+#right {
+  padding: 1px 5px;
+  border: 2px solid;
+  border-radius: 50%;
+}
